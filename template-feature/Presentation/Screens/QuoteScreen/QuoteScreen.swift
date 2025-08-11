@@ -19,7 +19,6 @@ struct QuoteScreen: View {
                     Button("Load Today's Quote") {
                         viewModel.loadTodayQuote()
                     }
-                    .buttonStyle(.borderedProminent)
                     
                 case .loading:
                     VStack(spacing: 16) {
@@ -41,7 +40,6 @@ struct QuoteScreen: View {
                     Button("Refresh") {
                         viewModel.refreshQuote()
                     }
-                    .buttonStyle(.bordered)
                     
                 case .error(let message):
                     VStack(spacing: 16) {
@@ -60,7 +58,6 @@ struct QuoteScreen: View {
                         Button("Try Again") {
                             viewModel.loadTodayQuote()
                         }
-                        .buttonStyle(.borderedProminent)
                     }
                     .padding()
                 }

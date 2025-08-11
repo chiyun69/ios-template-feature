@@ -1,0 +1,4 @@
+module template_feature {
+    header "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/template-feature-Swift.h"
+    requires objc
+}

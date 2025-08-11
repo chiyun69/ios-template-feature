@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featurePackageTests.build/master.swiftdeps"
+  },
+  "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template-featurePackageTests.derived/runner.swift": {
+    "dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featurePackageTests.build/runner.d",
+    "object": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featurePackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featurePackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featurePackageTests.build/runner.swiftdeps"
+  }
+}

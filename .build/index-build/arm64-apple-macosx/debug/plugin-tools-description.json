@@ -1,0 +1,846 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template-featurePackageTests.xctest/Contents/MacOS/template-featurePackageTests",
+      "packagePath" : "/Users/czy/workspace/ios/template/template-feature",
+      "productName" : "template-featurePackageTests"
+    }
+  ],
+  "copyCommands" : {
+    "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template-feature_template-feature.bundle/Assets.xcassets" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Resources/Assets.xcassets"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template-feature_template-feature.bundle/Assets.xcassets"
+        }
+      ]
+    },
+    "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template-feature_template-feature.bundle/TemplateFeatureResources.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Resources/TemplateFeatureResources.swift"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template-feature_template-feature.bundle/TemplateFeatureResources.swift"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.template-feature-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/sources",
+      "importPath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/DI/QuoteModule.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/DTO/QuoteResponseDTO.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/Mappers/QuoteMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/RemoteDataSource/API/ZenQuotesAPIService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/Repositories/QuoteRepositoryImpl.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/Models/Quote.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/Repositories/QuoteRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/UseCases/GetTodayQuoteUseCase.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/Components/QuoteCardView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreen.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreenState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreenViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Public/QuoteModuleAPI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/template_feature.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<template-feature-arm64-apple-macosx15.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "template_feature",
+      "moduleOutputPath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/Modules/template_feature.swiftmodule",
+      "objects" : [
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteModule.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteResponseDTO.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteMapper.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/ZenQuotesAPIService.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteRepositoryImpl.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/Quote.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteRepository.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/GetTodayQuoteUseCase.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteCardView.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteScreen.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteScreenState.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteScreenViewModel.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteModuleAPI.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/template_feature.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/template-feature-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/Modules/template_feature.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/czy/workspace/ios/template/template-feature/template-feature/DI/QuoteModule.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/DTO/QuoteResponseDTO.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/Mappers/QuoteMapper.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/RemoteDataSource/API/ZenQuotesAPIService.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/Repositories/QuoteRepositoryImpl.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/Models/Quote.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/Repositories/QuoteRepository.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/UseCases/GetTodayQuoteUseCase.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/Components/QuoteCardView.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreen.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreenState.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreenViewModel.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-feature/Public/QuoteModuleAPI.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-feature/template_feature.swift",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.template-featurePackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featurePackageTests.build/sources",
+      "importPath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template-featurePackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/Modules/template_featureTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featurePackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "template_featurePackageTests",
+      "moduleOutputPath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/Modules/template_featurePackageTests.swiftmodule",
+      "objects" : [
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featurePackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featurePackageTests.build/template-featurePackageTests-Swift.h",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featurePackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/Modules/template_featurePackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template-featurePackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featurePackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.template-featureTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featureTests.build/sources",
+      "importPath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Data/Mappers/QuoteMapperTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Data/RemoteDataSource/API/ZenQuotesAPIServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Data/Repositories/QuoteRepositoryImplTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Domain/Models/QuoteTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Domain/UseCases/GetTodayQuoteUseCaseTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Presentation/Screens/QuoteScreen/QuoteScreenViewModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-featureTests/template_featureTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/Modules/template_feature.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featureTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "template_featureTests",
+      "moduleOutputPath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/Modules/template_featureTests.swiftmodule",
+      "objects" : [
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featureTests.build/QuoteMapperTests.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featureTests.build/ZenQuotesAPIServiceTests.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featureTests.build/QuoteRepositoryImplTests.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featureTests.build/QuoteTests.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featureTests.build/GetTodayQuoteUseCaseTests.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featureTests.build/QuoteScreenViewModelTests.swift.o",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featureTests.build/template_featureTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featureTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/Modules/template_featureTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Data/Mappers/QuoteMapperTests.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Data/RemoteDataSource/API/ZenQuotesAPIServiceTests.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Data/Repositories/QuoteRepositoryImplTests.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Domain/Models/QuoteTests.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Domain/UseCases/GetTodayQuoteUseCaseTests.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Presentation/Screens/QuoteScreen/QuoteScreenViewModelTests.swift",
+        "/Users/czy/workspace/ios/template/template-feature/template-featureTests/template_featureTests.swift"
+      ],
+      "tempsPath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featureTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "template_feature" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "template_feature",
+      "-incremental",
+      "-c",
+      "/Users/czy/workspace/ios/template/template-feature/template-feature/DI/QuoteModule.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/DTO/QuoteResponseDTO.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/Mappers/QuoteMapper.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/RemoteDataSource/API/ZenQuotesAPIService.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/Repositories/QuoteRepositoryImpl.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/Models/Quote.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/Repositories/QuoteRepository.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/UseCases/GetTodayQuoteUseCase.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/Components/QuoteCardView.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreen.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreenState.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreenViewModel.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-feature/Public/QuoteModuleAPI.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-feature/template_feature.swift",
+      "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/template-feature-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "template_featurePackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "template_featurePackageTests",
+      "-incremental",
+      "-c",
+      "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template-featurePackageTests.derived/runner.swift",
+      "-I",
+      "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featurePackageTests.build/template-featurePackageTests-Swift.h",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "template_featureTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "template_featureTests",
+      "-incremental",
+      "-c",
+      "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Data/Mappers/QuoteMapperTests.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Data/RemoteDataSource/API/ZenQuotesAPIServiceTests.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Data/Repositories/QuoteRepositoryImplTests.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Domain/Models/QuoteTests.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Domain/UseCases/GetTodayQuoteUseCaseTests.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Presentation/Screens/QuoteScreen/QuoteScreenViewModelTests.swift",
+      "/Users/czy/workspace/ios/template/template-feature/template-featureTests/template_featureTests.swift",
+      "-I",
+      "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "template_feature" : [
+
+    ],
+    "template_featurePackageTests" : [
+      "template_featureTests",
+      "template_feature"
+    ],
+    "template_featureTests" : [
+      "template_feature"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    },
+    "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/DI/QuoteModule.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/DTO/QuoteResponseDTO.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/Mappers/QuoteMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/RemoteDataSource/API/ZenQuotesAPIService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/Repositories/QuoteRepositoryImpl.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/Models/Quote.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/Repositories/QuoteRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/UseCases/GetTodayQuoteUseCase.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/Components/QuoteCardView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreen.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreenState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreenViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/Public/QuoteModuleAPI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-feature/template_feature.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/sources"
+    },
+    "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featurePackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template-featurePackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featurePackageTests.build/sources"
+    },
+    "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featureTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Data/Mappers/QuoteMapperTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Data/RemoteDataSource/API/ZenQuotesAPIServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Data/Repositories/QuoteRepositoryImplTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Domain/Models/QuoteTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Domain/UseCases/GetTodayQuoteUseCaseTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-featureTests/Presentation/Screens/QuoteScreen/QuoteScreenViewModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/czy/workspace/ios/template/template-feature/template-featureTests/template_featureTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featureTests.build/sources"
+    }
+  }
+}

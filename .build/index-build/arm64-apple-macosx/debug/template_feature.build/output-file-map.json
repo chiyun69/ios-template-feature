@@ -1,0 +1,95 @@
+{
+  "": {
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/master.swiftdeps"
+  },
+  "/Users/czy/workspace/ios/template/template-feature/template-feature/DI/QuoteModule.swift": {
+    "dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteModule.d",
+    "object": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteModule.swift.o",
+    "swiftmodule": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteModule~partial.swiftmodule",
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteModule.swiftdeps"
+  },
+  "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/DTO/QuoteResponseDTO.swift": {
+    "dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteResponseDTO.d",
+    "object": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteResponseDTO.swift.o",
+    "swiftmodule": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteResponseDTO~partial.swiftmodule",
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteResponseDTO.swiftdeps"
+  },
+  "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/Mappers/QuoteMapper.swift": {
+    "dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteMapper.d",
+    "object": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteMapper.swift.o",
+    "swiftmodule": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteMapper~partial.swiftmodule",
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteMapper.swiftdeps"
+  },
+  "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/RemoteDataSource/API/ZenQuotesAPIService.swift": {
+    "dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/ZenQuotesAPIService.d",
+    "object": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/ZenQuotesAPIService.swift.o",
+    "swiftmodule": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/ZenQuotesAPIService~partial.swiftmodule",
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/ZenQuotesAPIService.swiftdeps"
+  },
+  "/Users/czy/workspace/ios/template/template-feature/template-feature/Data/Repositories/QuoteRepositoryImpl.swift": {
+    "dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteRepositoryImpl.d",
+    "object": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteRepositoryImpl.swift.o",
+    "swiftmodule": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteRepositoryImpl~partial.swiftmodule",
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteRepositoryImpl.swiftdeps"
+  },
+  "/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/Models/Quote.swift": {
+    "dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/Quote.d",
+    "object": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/Quote.swift.o",
+    "swiftmodule": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/Quote~partial.swiftmodule",
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/Quote.swiftdeps"
+  },
+  "/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/Repositories/QuoteRepository.swift": {
+    "dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteRepository.d",
+    "object": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteRepository.swift.o",
+    "swiftmodule": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteRepository~partial.swiftmodule",
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteRepository.swiftdeps"
+  },
+  "/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/UseCases/GetTodayQuoteUseCase.swift": {
+    "dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/GetTodayQuoteUseCase.d",
+    "object": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/GetTodayQuoteUseCase.swift.o",
+    "swiftmodule": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/GetTodayQuoteUseCase~partial.swiftmodule",
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/GetTodayQuoteUseCase.swiftdeps"
+  },
+  "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/Components/QuoteCardView.swift": {
+    "dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteCardView.d",
+    "object": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteCardView.swift.o",
+    "swiftmodule": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteCardView~partial.swiftmodule",
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteCardView.swiftdeps"
+  },
+  "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreen.swift": {
+    "dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteScreen.d",
+    "object": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteScreen.swift.o",
+    "swiftmodule": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteScreen~partial.swiftmodule",
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteScreen.swiftdeps"
+  },
+  "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreenState.swift": {
+    "dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteScreenState.d",
+    "object": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteScreenState.swift.o",
+    "swiftmodule": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteScreenState~partial.swiftmodule",
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteScreenState.swiftdeps"
+  },
+  "/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreenViewModel.swift": {
+    "dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteScreenViewModel.d",
+    "object": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteScreenViewModel.swift.o",
+    "swiftmodule": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteScreenViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteScreenViewModel.swiftdeps"
+  },
+  "/Users/czy/workspace/ios/template/template-feature/template-feature/Public/QuoteModuleAPI.swift": {
+    "dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteModuleAPI.d",
+    "object": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteModuleAPI.swift.o",
+    "swiftmodule": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteModuleAPI~partial.swiftmodule",
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/QuoteModuleAPI.swiftdeps"
+  },
+  "/Users/czy/workspace/ios/template/template-feature/template-feature/template_feature.swift": {
+    "dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/template_feature.d",
+    "object": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/template_feature.swift.o",
+    "swiftmodule": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/template_feature~partial.swiftmodule",
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/template_feature.swiftdeps"
+  },
+  "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/resource_bundle_accessor.d",
+    "object": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/resource_bundle_accessor.swiftdeps"
+  }
+}

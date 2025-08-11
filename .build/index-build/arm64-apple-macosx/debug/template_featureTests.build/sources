@@ -1,0 +1,7 @@
+/Users/czy/workspace/ios/template/template-feature/template-featureTests/Data/Mappers/QuoteMapperTests.swift
+/Users/czy/workspace/ios/template/template-feature/template-featureTests/Data/RemoteDataSource/API/ZenQuotesAPIServiceTests.swift
+/Users/czy/workspace/ios/template/template-feature/template-featureTests/Data/Repositories/QuoteRepositoryImplTests.swift
+/Users/czy/workspace/ios/template/template-feature/template-featureTests/Domain/Models/QuoteTests.swift
+/Users/czy/workspace/ios/template/template-feature/template-featureTests/Domain/UseCases/GetTodayQuoteUseCaseTests.swift
+/Users/czy/workspace/ios/template/template-feature/template-featureTests/Presentation/Screens/QuoteScreen/QuoteScreenViewModelTests.swift
+/Users/czy/workspace/ios/template/template-feature/template-featureTests/template_featureTests.swift

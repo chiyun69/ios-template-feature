@@ -1,0 +1,15 @@
+/Users/czy/workspace/ios/template/template-feature/template-feature/DI/QuoteModule.swift
+/Users/czy/workspace/ios/template/template-feature/template-feature/Data/DTO/QuoteResponseDTO.swift
+/Users/czy/workspace/ios/template/template-feature/template-feature/Data/Mappers/QuoteMapper.swift
+/Users/czy/workspace/ios/template/template-feature/template-feature/Data/RemoteDataSource/API/ZenQuotesAPIService.swift
+/Users/czy/workspace/ios/template/template-feature/template-feature/Data/Repositories/QuoteRepositoryImpl.swift
+/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/Models/Quote.swift
+/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/Repositories/QuoteRepository.swift
+/Users/czy/workspace/ios/template/template-feature/template-feature/Domain/UseCases/GetTodayQuoteUseCase.swift
+/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/Components/QuoteCardView.swift
+/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreen.swift
+/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreenState.swift
+/Users/czy/workspace/ios/template/template-feature/template-feature/Presentation/Screens/QuoteScreen/QuoteScreenViewModel.swift
+/Users/czy/workspace/ios/template/template-feature/template-feature/Public/QuoteModuleAPI.swift
+/Users/czy/workspace/ios/template/template-feature/template-feature/template_feature.swift
+/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_feature.build/DerivedSources/resource_bundle_accessor.swift

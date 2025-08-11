@@ -1,0 +1,12 @@
+.build
+.claude
+.cache
+.idea
+.vscode
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+/TestResults
+/TestResults.xcresult

@@ -1,4 +1,0 @@
-module template_featurePackageTests {
-    header "/Users/czy/workspace/ios/template/template-feature/.build/index-build/arm64-apple-macosx/debug/template_featurePackageTests.build/template-featurePackageTests-Swift.h"
-    requires objc
-}
